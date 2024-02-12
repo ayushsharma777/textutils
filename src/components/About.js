@@ -82,7 +82,7 @@ export default function About(props) {
         </h5>
         <h6>
           {" "}
-          Linkedin: <a href="https://www.linkedin.com/in/ayushsharma77/"></a>
+          Linkedin: <a href="https://www.linkedin.com/in/ayushsharma77/" style={{color:'blue', textDecoration:'underline'}}>{`https://www.linkedin.com/in/ayushsharma77/`}</a>
         </h6>
       </div>
     </div>
