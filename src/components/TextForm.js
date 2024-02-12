@@ -187,7 +187,7 @@ export default function TextForm(props) {
         </button>
         <button
           disabled={text.length === 0}
-          className="btn btn-primary my-1 mx-1"
+          className="btn btn-danger my-1 mx-1"
           onClick={clearText}
         >
           Clear Text
