@@ -84,7 +84,7 @@ export default function About(props) {
           </div>
         </div>
         <h6 style={{ textAlign: "center", marginTop: "30px" }}>
-          Developed by Ayush{" "}
+          Developed by Ayush Sharma{" "}
         </h6>
       </div>
       {/* <div className="container my-2">
