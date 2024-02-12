@@ -200,7 +200,7 @@ export default function TextForm(props) {
       >
         <h2>Your text summary</h2>
         {/* <p>{text.split(" ")[text.split(" ").length - 1] === "" ? text.split(" ").length - 1 : text.split(" ").length} words and {text.length} characters</p> */}
-        <p>
+        <p style={{ color: "gray" }}>
           {
             text.split(/\s+/).filter((element) => {
               return element.length !== 0;
@@ -209,7 +209,7 @@ export default function TextForm(props) {
           words and {text.length} characters
         </p>
         {/* <p>{0.008 * (text.split(" ")[text.split(" ").length - 1] === "" ? text.split(" ").length - 1 : text.split(" ").length)} minutes read</p> */}
-        <p>
+        <p style={{ color: "gray" }}>
           {0.008 *
             text.split(/\s+/).filter((element) => {
               return element.length !== 0;
@@ -217,7 +217,7 @@ export default function TextForm(props) {
           minutes read
         </p>
         <h2>Preview</h2>
-        <p>
+        <p style={{ color: "gray" }}>
           {text.length > 0
             ? text
             : "Enter something in the textbox above to preview it here"}
