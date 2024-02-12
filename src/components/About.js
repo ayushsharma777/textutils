@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 
 export default function About(props) {
-  // const [myStyle, setMyStyle] = useState({
-  //     color: 'black',
-  //     backgroundColor: 'white'
-
-  // })
-
   let myStyle = {
     color: props.mode === "dark" ? "white" : "#042743",
     backgroundColor: props.mode === "dark" ? "#042743" : "white",
@@ -83,13 +77,14 @@ export default function About(props) {
             </div>
           </div>
         </div>
-        <h6 style={{ textAlign: "center", marginTop: "30px" }}>
+        <h5 style={{ textAlign: "center", marginTop: "30px" }}>
           Developed by Ayush Sharma{" "}
+        </h5>
+        <h6>
+          {" "}
+          Linkedin: <a href="https://www.linkedin.com/in/ayushsharma77/"></a>
         </h6>
       </div>
-      {/* <div className="container my-2">
-            <button type='button' onClick={toggleStyle} className="btn btn-primary">{btnText}</button>
-            </div> */}
     </div>
   );
 }
